@@ -38,28 +38,28 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000,
+    "auto-reconnect-delay": 0,
+    "max-reconnect-delay": 0,
     "periodic-rejoin": {
       "enabled": false,
-      "min-interval": 20,
-      "max-interval": 60
+      "min-interval": 0,
+      "max-interval": 9999999
     }
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 9999,
       "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 1
     },
     "random-jump": {
       "enabled": true,
-      "interval": 100
+      "interval": 1
     }
   },
   "modules": {
@@ -74,7 +74,7 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
+    "pick-up-day": true,
     "place-night": true
   },
   "discord": {
@@ -83,7 +83,7 @@
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
