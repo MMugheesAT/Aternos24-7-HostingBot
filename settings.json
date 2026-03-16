@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "MobiusSMP.aternos.me:18625",
+    "ip": "MobiusSMP.aternos.me",
     "port": 18625,
     "version": "",
     "try-creative": false
