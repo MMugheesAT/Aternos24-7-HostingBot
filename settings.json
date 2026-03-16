@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "7L_SMP_is_real.aternos.me",
-    "port": 62213,
+    "ip": "MobiusSMP.aternos.me:18625",
+    "port": 18625,
     "version": "",
     "try-creative": false
   },
@@ -59,13 +59,13 @@
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 100
     }
   },
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -75,7 +75,7 @@
   },
   "beds": {
     "pick-up-day": false,
-    "place-night": false
+    "place-night": true
   },
   "discord": {
     "enabled": false,
